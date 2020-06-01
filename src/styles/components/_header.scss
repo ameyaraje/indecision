@@ -1,0 +1,26 @@
+.header {
+    background: $off-black;
+    margin-bottom: $medium-size;
+    padding: $medium-size 0;
+    color: white;
+}
+
+// The __ signifies children elements (of a div?). Convention: parent-name__child-name 
+
+.header__title {
+    font-size: $large-size;
+    margin: 0;
+}
+
+.header__subtitle {
+    color: $light-purple;
+    font-size: $medium-size;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media (min-width: $desktop-break-point) {
+    .header {
+        margin-bottom: $xl-size;
+    }
+}
