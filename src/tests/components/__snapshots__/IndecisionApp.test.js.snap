@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render IndecisionApp component 1`] = `
+<div>
+  <Header
+    subtitle="Put your life in the hands of a computer!"
+    title="Indecision App"
+  />
+  <div
+    className="container"
+  >
+    <Action
+      handlePickOption={[Function]}
+      hasOptions={false}
+    />
+    <div
+      className="widget"
+    >
+      <Options
+        handleDeleteOption={[Function]}
+        handleDeleteOptions={[Function]}
+        options={Array []}
+      />
+      <AddOption
+        handleAddOption={[Function]}
+      />
+    </div>
+    <OptionModal
+      clearSelectedOption={[Function]}
+    />
+  </div>
+</div>
+`;

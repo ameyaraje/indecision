@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Action component 1`] = `
+<div>
+  <button
+    className="big-button"
+    disabled={true}
+  >
+    What do I do?
+  </button>
+</div>
+`;

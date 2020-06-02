@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Options component with no options passed 1`] = `
+<div>
+  <div
+    className="widget-header"
+  >
+    <h3
+      className="widget-header__title"
+    >
+      Your options
+    </h3>
+    <button
+      className="button button--link"
+    >
+      Remove All
+    </button>
+  </div>
+  <p
+    className="widget__message"
+  >
+    Please add an option to get started
+  </p>
+</div>
+`;
+
+exports[`should render Options component with some options passed 1`] = `
+<div>
+  <div
+    className="widget-header"
+  >
+    <h3
+      className="widget-header__title"
+    >
+      Your options
+    </h3>
+    <button
+      className="button button--link"
+    >
+      Remove All
+    </button>
+  </div>
+  <Option
+    key="option 1"
+    optionText="option 1"
+  />
+  <Option
+    key="option 2"
+    optionText="option 2"
+  />
+</div>
+`;

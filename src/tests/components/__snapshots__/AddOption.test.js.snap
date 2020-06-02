@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render AddOption component 1`] = `
+<div>
+  <form
+    className="add-new-option"
+    onSubmit={[Function]}
+  >
+    <input
+      className="add-new-option__input"
+      name="option"
+      type="text"
+    />
+    <button
+      className="button"
+    >
+      Add Option
+    </button>
+  </form>
+</div>
+`;
